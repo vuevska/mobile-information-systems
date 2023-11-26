@@ -74,17 +74,18 @@ class _RootPageState extends State<RootPage> {
         child: const Icon(Icons.add_outlined),
       ),
       bottomNavigationBar: const BottomAppBar(
-          color: Color.fromARGB(255, 226, 221, 221),
-          child: SizedBox(
-            height: 50.0,
-            child: Padding(
-              padding: EdgeInsets.all(15.0),
-              child: Text(
-                'MIS Lab 1 - Maja Vuevska - 11/2023',
-                style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
-              ),
+        color: Color.fromARGB(255, 226, 221, 221),
+        child: SizedBox(
+          height: 50.0,
+          child: Padding(
+            padding: EdgeInsets.all(15.0),
+            child: Text(
+              'MIS Lab 1 - Maja Vuevska - 11/2023',
+              style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
             ),
-          )),
+          ),
+        ),
+      ),
     );
   }
 
